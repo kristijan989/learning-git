@@ -17,15 +17,28 @@
    - Create your own branch (name it to be unique branch yourfirstname-yourlastname) 
    - Add two files in the root project directory: yourNameFile1.txt and yourNameFile1 - Copy.txt and add both to staging 
    - Commit only file yourNameFile1.txt and push changes to your remote branch
-   **Hints:** Check with git status what is ready to be commited *be carefull to set correct remote branch for pushing changes *use -help to see git options (for example git commit -help)
+   ```
+   **Hints:** 
+     Check with git status what is ready to be commited 
+     Be carefull to set correct remote branch for pushing changes 
+     Use -help to see git options (for example git commit -help)
+   ```
 
 3. Exercice: 
    - Ignore unwanted file yourNameFile1 - Copy.txt from repository Hint: *use check-ignore option to see if your file is marked successfully as ignored file
 
 4. Exercice: 
    - In browser go to github repository https://github.com/kristijan989/learning-git and switch to your branch. Go to edit yourNameFile1.txt directly from github (add text: This is remote change to file) and commit changes from there 
-   - Go back to your repository directory on your computer and find file yourNameFile1.txt. Open it in any text editor (notepad, etc) and add text in two rows: This is local change to file This is second line change 
-   - Open again git console and check git status. What you see? Try to commit and push change. Is it done? If not than read carefully what error you got and try to follow steps that are suggested. Fix conflict so your file looks like: This is remote change to file This is second line change 
+   - Go back to your repository directory on your computer and find file yourNameFile1.txt. Open it in any text editor (notepad, etc) and add text in two rows: 
+     ```
+     This is local change to file 
+     This is second line change 
+     ```
+   - Open again git console and check git status. What you see? Try to commit and push change. Is it done? If not than read carefully what error you got and try to follow steps that are suggested. Fix conflict so your file looks like: 
+     ```
+     This is remote change to file 
+     This is second line change 
+     ```
    - Commit and push changes to remote branch
 
 5. Exercice: 
