@@ -34,7 +34,7 @@
      This is local change to file 
      This is second line change 
      ```
-   Open again git console and check git status. What you see? Try to commit and push change. Is it done? If not than read carefully what error you got and try to follow steps that are suggested. Fix conflict so your file looks like: 
+     Open again git console and check git status. What you see? Try to commit and push change. Is it done? If not than read carefully what error you got and try to follow steps that are suggested. Fix conflict so your file looks like: 
      ```
      This is remote change to file 
      This is second line change 
